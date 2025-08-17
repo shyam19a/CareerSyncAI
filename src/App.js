@@ -5,10 +5,10 @@ import { ThemeProvider, createTheme } from "@mui/material/styles";
 const theme = createTheme({
   palette: {
     primary: {
-      main: "#1976d2", // Blue color, you can change this
+      main: "#1976d2", 
     },
     background: {
-      default: "#f4f7fb", // Soft light background color
+      default: "#f4f7fb", 
     },
   },
 });

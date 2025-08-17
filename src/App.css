@@ -1,3 +1,5 @@
+
+
 .App {
   text-align: center;
 }
@@ -36,3 +38,41 @@
     transform: rotate(360deg);
   }
 }
+
+/* New pro-bg class with radial gradient background */
+.pro-bg {
+  /* remove or comment out any background-image or background property here */
+  min-height: 100vh;
+  width: 100vw;
+}
+
+
+
+
+
+/* Existing vibrant-bg for other uses */
+.vibrant-bg {
+  background: linear-gradient(120deg, #e0eafc 0%, #cfdef3 100%);
+}
+
+/* Unified fadeInUp animation */
+@keyframes fadeInUp {
+  from {
+    transform: translateY(40px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+/* Set whole page background to black */
+html, body, #root {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #000 !important;
+  color: #fff; /* default text color white */
+}
+
